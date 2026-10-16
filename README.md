@@ -127,7 +127,9 @@ Move to PostgreSQL or a warehouse for concurrent workloads; add orchestration, s
 
 ## 13. Design note and demo
 - Technical decisions and trade-offs: [`DESIGN_NOTE.md`](DESIGN_NOTE.md) and [`DESIGN_NOTE.pdf`](DESIGN_NOTE.pdf).
-- Suggested 5–8 minute demo flow: [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
+- Demo Video-
+     Part1:-https://1drv.ms/v/c/b9f26cd49026f938/IQBIZy7RRE1cT4FvqfKhhevKAXXMfny9rK1EJoCjoW2n0FE?e=3vfYdf
+     Part2:-https://1drv.ms/v/c/b9f26cd49026f938/IQACubdJjJ7YQ7LstHf1FWomATMJeMUXPhi2FCYmx25ANs0?e=Bhu4ZC
 
 ## 14. External resources
 - [Python `csv` documentation](https://docs.python.org/3/library/csv.html)
