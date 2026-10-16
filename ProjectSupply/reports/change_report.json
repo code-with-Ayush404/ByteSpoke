@@ -1,0 +1,125 @@
+{
+  "report_type": "customer_dimension_change_report",
+  "schema_version": "1.0",
+  "summary": {
+    "unique_customers": 4,
+    "total_versions": 6,
+    "current_versions": 4,
+    "change_events": 6
+  },
+  "events": [
+    {
+      "batch_id": "280af8fa2a5ad794a7f2612b668d1fd9796ffd1863d20cec5d23307255613d8c",
+      "customer_id": "C1001",
+      "effective_date": "2026-01-01",
+      "event_type": "INSERT",
+      "changed_fields": [
+        "customer_name",
+        "city",
+        "segment"
+      ],
+      "before": null,
+      "after": {
+        "city": "Lucknow",
+        "customer_name": "Aarav Sharma",
+        "segment": "Standard"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    },
+    {
+      "batch_id": "280af8fa2a5ad794a7f2612b668d1fd9796ffd1863d20cec5d23307255613d8c",
+      "customer_id": "C1002",
+      "effective_date": "2026-01-01",
+      "event_type": "INSERT",
+      "changed_fields": [
+        "customer_name",
+        "city",
+        "segment"
+      ],
+      "before": null,
+      "after": {
+        "city": "Kanpur",
+        "customer_name": "Meera Singh",
+        "segment": "Premium"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    },
+    {
+      "batch_id": "280af8fa2a5ad794a7f2612b668d1fd9796ffd1863d20cec5d23307255613d8c",
+      "customer_id": "C1003",
+      "effective_date": "2026-01-01",
+      "event_type": "INSERT",
+      "changed_fields": [
+        "customer_name",
+        "city",
+        "segment"
+      ],
+      "before": null,
+      "after": {
+        "city": "Noida",
+        "customer_name": "Kabir Verma",
+        "segment": "Standard"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    },
+    {
+      "batch_id": "937be37fc376fcc26fa75e2055761b3e4d51f2fc9f64c1077a17c67fb7948032",
+      "customer_id": "C1001",
+      "effective_date": "2026-03-01",
+      "event_type": "UPDATE",
+      "changed_fields": [
+        "city",
+        "segment"
+      ],
+      "before": {
+        "city": "Lucknow",
+        "customer_name": "Aarav Sharma",
+        "segment": "Standard"
+      },
+      "after": {
+        "city": "Delhi",
+        "customer_name": "Aarav Sharma",
+        "segment": "Premium"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    },
+    {
+      "batch_id": "937be37fc376fcc26fa75e2055761b3e4d51f2fc9f64c1077a17c67fb7948032",
+      "customer_id": "C1003",
+      "effective_date": "2026-03-01",
+      "event_type": "UPDATE",
+      "changed_fields": [
+        "segment"
+      ],
+      "before": {
+        "city": "Noida",
+        "customer_name": "Kabir Verma",
+        "segment": "Standard"
+      },
+      "after": {
+        "city": "Noida",
+        "customer_name": "Kabir Verma",
+        "segment": "Premium"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    },
+    {
+      "batch_id": "937be37fc376fcc26fa75e2055761b3e4d51f2fc9f64c1077a17c67fb7948032",
+      "customer_id": "C1004",
+      "effective_date": "2026-03-01",
+      "event_type": "INSERT",
+      "changed_fields": [
+        "customer_name",
+        "city",
+        "segment"
+      ],
+      "before": null,
+      "after": {
+        "city": "Gorakhpur",
+        "customer_name": "Ishita Gupta",
+        "segment": "Standard"
+      },
+      "recorded_at": "2026-10-16 07:57:25"
+    }
+  ]
+}
