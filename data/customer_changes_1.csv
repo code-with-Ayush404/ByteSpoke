@@ -1,0 +1,4 @@
+customer_id,customer_name,city,segment,effective_date
+C1001,Aarav Sharma,Lucknow,Standard,2026-01-01
+C1002,Meera Singh,Kanpur,Premium,2026-01-01
+C1003,Kabir Verma,Noida,Standard,2026-01-01
